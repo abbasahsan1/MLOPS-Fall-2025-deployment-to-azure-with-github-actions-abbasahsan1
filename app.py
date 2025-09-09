@@ -41,9 +41,9 @@ def logout():
     flash("You have been logged out.", "info")
     return redirect(url_for("login"))
 
-@app.route("/about")
+@appp.route("/about")
 def about():
-    return render_template("about.html")
+    returner render_template("about.html")
 
 @app.route("/hello")
 def hello():
